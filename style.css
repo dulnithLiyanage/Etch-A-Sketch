@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Red+Hat+Mono:wght@400;500&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif !important;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  margin: 10px;
+}
+
+button {
+  font-family: "Poppins";
+  font-size: 16px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 2.5em;
+  background-color: cadetblue;
+  color: #fff;
+}
+
+p {
+  font-size: 22px;
+  margin: 10px;
+}
+
+.square {
+  background-color: white;
+}
+
+.color {
+  background-color: black;
+}
+
+.grid {
+  margin-top: 10px;
+  display: inline-grid;
+  grid-template-columns: repeat(16, 2fr);
+  grid-template-rows: repeat(16, 2fr);
+  height: 400px;
+  width: 400px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
